@@ -16,6 +16,7 @@
 		2E26FDF81FFF6C520083F4E4 /* HeatBeatExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E26FDF71FFF6C520083F4E4 /* HeatBeatExampleUITests.swift */; };
 		2E26FE0A1FFF6ED90083F4E4 /* HBListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E26FE081FFF6ED90083F4E4 /* HBListener.swift */; };
 		2E26FE0B1FFF6ED90083F4E4 /* Heartbeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E26FE091FFF6ED90083F4E4 /* Heartbeat.swift */; };
+		2E26FE0D1FFF768C0083F4E4 /* MyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E26FE0C1FFF768C0083F4E4 /* MyController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		2E26FDF91FFF6C520083F4E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E26FE081FFF6ED90083F4E4 /* HBListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBListener.swift; sourceTree = "<group>"; };
 		2E26FE091FFF6ED90083F4E4 /* Heartbeat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heartbeat.swift; sourceTree = "<group>"; };
+		2E26FE0C1FFF768C0083F4E4 /* MyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				2E26FDDE1FFF6C520083F4E4 /* Assets.xcassets */,
 				2E26FDE01FFF6C520083F4E4 /* LaunchScreen.storyboard */,
 				2E26FDE31FFF6C520083F4E4 /* Info.plist */,
+				2E26FE0C1FFF768C0083F4E4 /* MyController.swift */,
 			);
 			path = HeatBeatExample;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				2E26FDD81FFF6C520083F4E4 /* AppDelegate.swift in Sources */,
 				2E26FE0B1FFF6ED90083F4E4 /* Heartbeat.swift in Sources */,
 				2E26FE0A1FFF6ED90083F4E4 /* HBListener.swift in Sources */,
+				2E26FE0D1FFF768C0083F4E4 /* MyController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

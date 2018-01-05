@@ -19,7 +19,9 @@ class Heartbeat: NSObject {
     ///开启心跳
     func run() -> Void {
         // 启用计时器，控制每秒执行一次tickDown方法
-        timer = Timer.scheduledTimer(timeInterval: TimeInterval(1), target:self,selector:#selector(Heartbeat.tickDown), userInfo:nil,repeats:true)
+        if timer == nil {
+            timer = Timer.scheduledTimer(timeInterval: TimeInterval(1), target:self,selector:#selector(Heartbeat.tickDown), userInfo:nil,repeats:true)
+        }
     }
     
     ///暂停心跳
