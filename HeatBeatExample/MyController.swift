@@ -23,7 +23,7 @@ class MyController: UIViewController {
             print("计时器beat的心跳" + String(point))
         }
         
-        时间间隔为3，运行无数次。
+        //时间间隔为3，运行无数次。
         Heartbeat.sharedInstance.listen(name: "apple", inteval: 3, times: 0) { (point) in
             print("计时器apple的心跳" + String(point))
         }
